@@ -4,7 +4,7 @@ use SOAP::Lite;
 my $query = "perl"; 
 my $googleSearch = SOAP::Lite -> service("http://api.google.com/GoogleSearch.wsdl"); 
 my $result = $googleSearch -> doGoogleSearch( 
-    "iwnUXUtHj3bteg5FWfBJDwui3SPeB+iy",     # password to access google 
+    "",     # password to access google 
     $query,                                 
     0,                                      # Fisrt result 
     10,                                     # Number of results 
