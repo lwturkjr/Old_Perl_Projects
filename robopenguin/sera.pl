@@ -26,8 +26,8 @@ use Data::Dumper;
 ########### Settings ##################
 
 my %Irc = (
-    server	      => 'irc.freenode.net',
-    port	      => 6667,
+    server	      => '',
+    port	      => ,
     nickname          => '',
     username          => ' ',
     password          => ' ',
