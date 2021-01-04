@@ -23,10 +23,10 @@ use POE qw(Component::Client::TCP);
 my %Irc = (
    version         => '0.1.1',
    port            => 6667,
-   server          => 'irc.rizon.net',
+   server          => '',
    nickname        => 'Robopenguin',
    username        => 'Robopenguin ',
-   chans           => ['#toastytest'],
+   chans           => [''],
    debug           => 1, # 0 = none, 1 = verbose, 2 = everything
    privmsg         => \&irc_privmsg,
    hostname        => 0,
