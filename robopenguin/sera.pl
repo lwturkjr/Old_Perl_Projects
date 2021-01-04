@@ -28,10 +28,10 @@ use Data::Dumper;
 my %Irc = (
     server	      => 'irc.freenode.net',
     port	      => 6667,
-    nickname          => 'Sera',
-    username          => 'Sera ',
-    password          => 'password ',
-    channels          => ['#lick'],
+    nickname          => '',
+    username          => ' ',
+    password          => ' ',
+    channels          => [''],
     debug             => 1, # 0 = none, 1 = verbose, 2 = everything
     privmsg           => \&irc_privmsg,
     hostname          => 0,
@@ -46,7 +46,7 @@ my %Irc = (
     pluginsystem      => {}, # Automaticly set
     buffer_enabled    => 1,
     buffer_maxsize    => 50, # Maximum size of traffic buffer
-    owners            => ['fatalnix', 'muffins', 'bhodgins'],
+    owners            => [],
     access_list       => {},
 );
 
