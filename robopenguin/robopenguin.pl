@@ -40,8 +40,8 @@ my %Irc = (
    max_buffer      => 50,
 );
 my %access = (
-   toast           => 'owner',
-   toastytoast     => 'owner',
+   username     => 'owner',
+   username     => 'owner',
 );
 
 #=====================================#
