@@ -22,7 +22,7 @@ use POE qw(Component::Client::TCP);
 
 my %Irc = (
    version         => '0.1.1',
-   port            => 6667,
+   port            => ,
    server          => '',
    nickname        => 'Robopenguin',
    username        => 'Robopenguin ',
